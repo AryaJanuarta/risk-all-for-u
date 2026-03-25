@@ -757,60 +757,59 @@ body::after{
         fill="#3d6a25" opacity=".9"/>
 
       <!-- OUTER PETALS (8 — larger, behind) -->
-      <g id="outerPetals">
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)" opacity=".8"
-          style="animation-delay:.3s;transform:translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:.5s;transform:rotate(45deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:.7s;transform:rotate(90deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:.9s;transform:rotate(135deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:1.1s;transform:rotate(180deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:1.3s;transform:rotate(225deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:1.5s;transform:rotate(270deg) translateY(-30px)"/>
-        <ellipse class="sf-petal-outer" cx="170" cy="75" rx="16" ry="50"
-          fill="url(#petalGrad2)" filter="url(#petalShadow)"
-          style="animation-delay:1.7s;transform:rotate(315deg) translateY(-30px)"/>
-      </g>
+      <g id="outerPetals" style="transform-origin:170px 170px">
+  <!-- 6 petals -->
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:.3s; transform:rotate(0deg) translateY(-70px)"/>
+
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:.5s; transform:rotate(60deg) translateY(-70px)"/>
+
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:.7s; transform:rotate(120deg) translateY(-70px)"/>
+
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:.9s; transform:rotate(180deg) translateY(-70px)"/>
+
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:1.1s; transform:rotate(240deg) translateY(-70px)"/>
+
+  <ellipse class="sf-petal-outer" cx="170" cy="120" rx="16" ry="60"
+    fill="url(#petalGrad2)" filter="url(#petalShadow)"
+    style="animation-delay:1.3s; transform:rotate(300deg) translateY(-70px)"/>
+</g>
 
       <!-- INNER PETALS (8 — vivid, front) -->
-      <g id="innerPetals" style="transform:rotate(22.5deg);transform-origin:170px 170px">
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:.8s"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:1.0s;transform:rotate(45deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:1.2s;transform:rotate(90deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:1.4s;transform:rotate(135deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:1.6s;transform:rotate(180deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:1.8s;transform:rotate(225deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:2.0s;transform:rotate(270deg)"/>
-        <ellipse class="sf-petal" cx="170" cy="82" rx="14" ry="55"
-          fill="url(#petalGrad)" filter="url(#glowFilter)"
-          style="animation-delay:2.2s;transform:rotate(315deg)"/>
-      </g>
+      <g id="innerPetals" style="transform-origin:170px 170px">
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:.8s; transform:rotate(30deg) translateY(-65px)"/>
+
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:1.0s; transform:rotate(90deg) translateY(-65px)"/>
+
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:1.2s; transform:rotate(150deg) translateY(-65px)"/>
+
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:1.4s; transform:rotate(210deg) translateY(-65px)"/>
+
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:1.6s; transform:rotate(270deg) translateY(-65px)"/>
+
+  <ellipse class="sf-petal" cx="170" cy="120" rx="14" ry="55"
+    fill="url(#petalGrad)" filter="url(#glowFilter)"
+    style="animation-delay:1.8s; transform:rotate(330deg) translateY(-65px)"/>
+</g>
 
       <!-- CENTER disk -->
       <g class="sf-center" style="animation-delay:2.4s;transform-origin:170px 170px">
